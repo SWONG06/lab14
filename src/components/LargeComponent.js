@@ -1,8 +1,12 @@
-export default function LargeComponent() {
+import React from "react";
+
+const LargeComponent = () => {
   return (
-    <div style={{ padding: "20px", background: "#eee", borderRadius: "8px" }}>
-      <h2>Componente cargado dinámicamente</h2>
-      <p>Este componente fue cargado con lazy loading.</p>
+    <div>
+      <h2>Este es un componente grande</h2>
+      <p>Se carga dinámicamente solo cuando es necesario.</p>
     </div>
   );
-}
+};
+
+export default LargeComponent;

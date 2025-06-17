@@ -9,3 +9,5 @@ function MyApp({ Component, pageProps }) {
     </main>
   );
 }
+
+export default MyApp;
